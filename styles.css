@@ -1,0 +1,20 @@
+img{
+    width: 100%;
+}
+.row{
+    margin: 0;
+}
+.row-img div{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+/* MEDIA QUERY */
+@media(min-width:768px){
+    .row-img div:first-child{
+        border-right: 5px solid black;
+    }
+    .row-img div:last-child{
+        border-left: 5px solid black;
+    }
+}
