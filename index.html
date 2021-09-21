@@ -5,31 +5,34 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Le jeu des erreurs</title>
-        <link rel="stylesheet" href="./bootstrap.css">
-        <link rel="stylesheet" href="./styles.css">
+        <link rel="stylesheet" href="./style/bootstrap.css">
+        <link rel="stylesheet" href="./style/styles.css">
     </head>
     <body>
         <header>
-            <h1>L'Oeil de Taupe - Le jeu</h1>
+            <h1>L'<span id="header-eye">O</span>eil de Taupe - Le jeu</h1>
             <p>
-                Petit jeu où vous devez identifier et cliquer sur les éléments qui ont été ajouté à la photo. 
-                Cliquez sur les éléments de la photo "Originale" qui n'apparaissent pas sur la "Copie Imparfaite".
+                Petit jeu où vous devez identifier et cliquer sur les éléments qui ont été retiré à la "Copie Imparfaite". 
+                Cliquez là où des éléments de la photo "Copie Imparfaite" semblent être manquants par rapport à l'originale.
             </p>
         </header>
         <main>
             <section class="row row-img">
-                <div class="col-12 col-md-6">
-                    <img src="./img/lvl-street-italy.jpg" alt="">
+                <div id="img-perfect" class="col-12 col-md-6">
                     <h2>Original</h2>
+                    <img class="game-img" src="./img/lvl-street-italy.jpg" alt="">                   
                 </div>
-                <div class="col-12 col-md-6">
-                    <img src="./img/lvl-error--italy-street.png" alt="">
+                <div id="img-unperfect" class="col-12 col-md-6">
                     <h2>Copie Imparfaite</h2>
+                    <img class="game-img" id="game-italy" src="./img/lvl-error--italy-street.png" alt="">
+                    <img class="game-error" src="./img/plaque-sol.png" alt="" id="ground">
+                    <img src="./img/tache-mur.png" alt="" id="wall">
                 </div>
             </section>
         </main>
         <footer>
             Bonne Chance ♥
         </footer>
+        <script src="./app.js"></script>
     </body>
 </html>
