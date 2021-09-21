@@ -45,19 +45,17 @@ header:first-child{
     left: 47%;
     width: 12%;
 }
-
 /* wall ERROR */
 #wall{
-    position: absolute;
-    opacity: 0;
-    z-index: 99;
-    bottom: 68.5%;
+    bottom: 71%;
     width: 0.8%;
     left: 77%;
 }
-#wall:active{
-    opacity: 1;
-    transition: 0.5s;
+/* light ERROR */
+#light{
+    width: 5.5%;
+    bottom: 71%;
+    left: 25.5%;
 }
 /* footer */
 footer{
@@ -66,14 +64,14 @@ footer{
     text-align: center;
 }
 /* animations */
-@keyframes start{
+/* @keyframes start{
     from{
         filter: grayscale(1);
     }
     to{
         filter: grayscale(0);
     }
-}
+} */
 /* MEDIA QUERY */
 @media(min-width:768px){
     .row-img div:first-child{
