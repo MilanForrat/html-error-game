@@ -57,6 +57,18 @@ header:first-child{
     bottom: 71%;
     left: 25.5%;
 }
+/* cable ERROR */
+#cable{
+    width: 2.3%;
+    bottom: 69%;
+    right: 8.7%;
+}
+/* restaurant-name ERROR */
+#restaurant-name{
+    width: 1.9%;
+    bottom: 58.81%;
+    left: 59.2%;
+}
 /* footer */
 footer{
     padding: 40px;
