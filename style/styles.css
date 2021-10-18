@@ -1,3 +1,6 @@
+body{
+    background: #000;
+}
 h2{
     color: white;
     background: rgb(0, 0, 0);
@@ -26,6 +29,17 @@ header:first-child{
     padding: 0;
     margin: 0;
     text-align: center;
+}
+section{
+    visibility: hidden;
+}
+#start-game{
+    width: 30%;
+    margin: 30px 0px 30px 50%;
+    transform: translate(-50%);
+}
+#game-italy, #game-italy-original{
+    filter: saturate(0%) blur(7px);
 }
 .game-img{
     width: 100%;
